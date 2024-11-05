@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableJpaRepositories
 @ComponentScan(basePackages = "com.example")
+
 public class RestaurantsApplication {
 
     public static void main(String[] args) {
